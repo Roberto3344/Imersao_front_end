@@ -1,0 +1,49 @@
+body, img {
+    background-color: #000;
+    color: aliceblue;
+    width: 100px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #000;
+    padding: 14px;  
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+}
+
+.sidebar__navigation .logo {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+.sidebar__navigation .logo {
+    width: 90px;
+}
+
+.sidebar nav ul {
+    padding: 16px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 5px 5px 5px;
+    font-family: var(--font-dm-sans);
+}
+
+
+
+
